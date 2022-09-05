@@ -1,0 +1,18 @@
+#!/bin/bash --login
+ 
+########## Define Resources Needed with SBATCH Lines ##########
+#SBATCH --time=52:00:00		
+#SBATCH --ntasks=1		    
+#SBATCH --cpus-per-task=64	
+#SBATCH --mem=10G     		
+#SBATCH --job-name=RAxML_Michigan	
+#SBATCH --account=Manning	
+
+########## Modules to Load ##########
+module load icc/2019.1.144-GCC-8.2.0.2.31.1 impi/2018.4.274
+module load ifort/2019.1.144-GCC-8.2.0-2.31.1 impi/2018.4.274
+module load RAxML/8.2.12-hybrid-avx2
+
+########## Code to Run ###########
+cd /mnt/gs18/scratch/groups/manninglab/mi_results_2 
+raxmlHPC -s /mnt/gs18/scratch/groups/manninglab/roary_mispecific_results/core_gene_alignment.aln -n campy_michigan_output.nwk -N 100 -T 20 -m GTRGAMMA -p 12345 -x 12345 -f a 
