@@ -1,0 +1,23 @@
+#!/bin/bash --login
+ 
+########## Define Resources Needed with SBATCH Lines ##########
+#SBATCH --time=24:00:00		
+#SBATCH --ntasks=1		    
+#SBATCH --cpus-per-task=10	
+#SBATCH --mem=50G     		
+#SBATCH --job-name=FastQC_Cattle	
+#SBATCH --account=Manning	
+
+########## Modules to Load ##########
+
+module load GNU/6.4.0-2.28  
+module load OpenMPI/2.1.2-CUDA
+module load FastQC/0.11.7-Java-1.8.0_162
+module load Anaconda/3
+
+########## Code to Run ###########
+
+cd /mnt/home/rodri651/
+conda activate JAR_WGS
+cd /mnt/gs18/scratch/groups/manninglab/
+python fastqc_v1_2021_0615.py

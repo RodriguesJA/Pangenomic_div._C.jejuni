@@ -1,0 +1,21 @@
+#!/bin/bash --login 
+
+########## SBATCH Lines for Resource Request ##########
+#SBATCH --time=96:00:00         
+#SBATCH --nodes=1             
+#SBATCH --ntasks=1              
+#SBATCH --cpus-per-task=64     
+#SBATCH --mem-per-cpu=15G         
+#SBATCH --job-name MiGA_All  
+#SBATCH --account=Manning
+
+########## Command Lines to Run ##########
+mkdir /mnt/gs18/scratch/groups/manninglab/MiGA_All
+cd  /mnt/gs18/scratch/groups/manninglab/MiGA_All
+
+singularity shell ~/MiGA << EOF
+miga new -P /mnt/gs18/scratch/groups/manninglab/MiGA_All -t clade
+miga add -P /mnt/gs18/scratch/groups/manninglab/MiGA_All -t genome -i assembly /mnt/gs18/scratch/groups/manninglab/all_campy_genomes/*.fasta -m run_mytaxa_scan=false
+miga daemon start -t -P /mnt/gs18/scratch/groups/manninglab/MiGA_All
+exit
+EOF
