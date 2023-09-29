@@ -5,11 +5,11 @@
 <a id="Software Repositories used in this project:"><a/>
 
 # Pangenomic analyses of antibiotic-resistant Campylobacter jejuni reveal unique lineage distributions and epidemiological associations
-## *Campylobacter jejuni* Bioinformatics Analysis - MDHHS and Manning Lab Collaboration
+***Campylobacter jejuni* Bioinformatics Analysis - MDHHS and Manning Lab Collaboration**
 
 ## Description:
 This repository contains the scripts utilized for bioinformatics and statistical analysis associated with Rodrigues et al., 2023 publication in Microbial Genomics (https://doi.org/10.1099/mgen.0.001073)
-The work is a collaboration between the Michigan Department of Health and Human Services (MDHHS) and the Manning Lab. 
+The work is a collaboration between the Michigan Department of Health and Human Services (MDHHS) and the [Manning Lab](https://manninglab.natsci.msu.edu/) at Michigan State University.
 
 ## MicroReact Link:
 As described in the publication, a [Microreact Link](https://microreact.org/project/dCGmMiVxreTFjNaqKC68gX-rodrigues-ja-et-al-microbial-genomics-2023) is available to view the phylogeographic analysis.
