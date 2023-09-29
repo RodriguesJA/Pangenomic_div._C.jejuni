@@ -8,7 +8,7 @@
 ***Campylobacter jejuni* Bioinformatics Analysis - MDHHS and Manning Lab Collaboration**
 
 ## Description:
-This repository contains the scripts utilized for bioinformatics and statistical analysis associated with [Rodrigues et al., 2023 publication in Microbial Genomics](https://doi.org/10.1099/mgen.0.001073)
+This repository contains the scripts utilized for bioinformatics and statistical analysis associated with [Rodrigues et al., 2023 publication in Microbial Genomics](https://doi.org/10.1099/mgen.0.001073).
 The work is a collaboration between the Michigan Department of Health and Human Services (MDHHS) and the [Manning Lab](https://manninglab.natsci.msu.edu/) at Michigan State University.
 
 ## MicroReact Link:
