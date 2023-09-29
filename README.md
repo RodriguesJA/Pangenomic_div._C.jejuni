@@ -1,8 +1,9 @@
 <a id="Description:"><a/>
-<a id="MicroReact Link:"><a/>
+<a id="Data Availability:"><a/>
 <a id="Key Features:"><a/>
 <a id="Bioinformatics Drawing:"><a/>
 <a id="Software Repositories used in this project:"><a/>
+<a id="Funding Sources:"><a/>
 
 # Pangenomic analyses of antibiotic-resistant Campylobacter jejuni reveal unique lineage distributions and epidemiological associations
 ***Campylobacter jejuni* Bioinformatics Analysis - MDHHS and Manning Lab Collaboration**
@@ -11,7 +12,8 @@
 This repository contains the scripts utilized for bioinformatics and statistical analysis associated with [Rodrigues et al., 2023 publication in Microbial Genomics](https://doi.org/10.1099/mgen.0.001073).
 The work is a collaboration between the Michigan Department of Health and Human Services (MDHHS) and the [Manning Lab](https://manninglab.natsci.msu.edu/) at Michigan State University.
 
-## MicroReact Link:
+## Data Availability: 
+Sequences are available at BioProjects PRJNA305291, PRJNA368990, and PRJNA951423, and new MLSTs identified in this study have been deposited to [PubMLST](https://pubmlst.org/) with designations ST-12343, and ST-12344.
 As described in the publication, a [Microreact Link](https://microreact.org/project/dCGmMiVxreTFjNaqKC68gX-rodrigues-ja-et-al-microbial-genomics-2023) is available to view the phylogeographic analysis.
 
 ### Key Features:
@@ -44,5 +46,7 @@ Please see the incredibly artistic flowchart below! This flowchart has a step-by
 - [StarAMR](https://github.com/phac-nml/staramr)
 - [Trimmomatic](http://www.usadellab.org/cms/index.php?page=trimmomatic)
 
+## Funding Sources: 
+This project was funded by the Michigan Sequencing and Academic Partnerships for Public Health Innovation and Response (MI-SAPPHIRE) initiative at the MDHHS, which was established and supported by funds through the Centers for Disease Control and Prevention (CDC). The CDC grant was entitled Epidemiology and Laboratory Capacity for Prevention and Control of Emerging Infectious Diseases Enhancing Detection Expansion programme (6NU50CK000510-02-087) as well as Michigan State University (MSU), AgBioResearch, and the MSU Foundation to the Manning Lab. Additional trainee support was provided to Jose A. Rodrigues via the Department of Microbiology and Molecular Genetics, the Ronald and Sharon Rogowski Fellowship, the Thomas S. Whittam travel award, and the MSU College of Osteopathic Medicine.
 
 
