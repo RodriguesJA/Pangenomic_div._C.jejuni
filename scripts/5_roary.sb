@@ -14,7 +14,7 @@ module load Anaconda/3
 
 ########## Code to Run ###########
 
-cd /mnt/home/rodri651/
+cd [directory]
 conda activate roary
-cd /mnt/gs18/scratch/groups/manninglab/
-roary -e -p 12 -f /mnt/gs18/scratch/groups/manninglab/roary_all_results /mnt/gs18/scratch/groups/manninglab/jar_total_annotated/*.gff
+cd [directory]
+roary -e -p 12 -f [file outputpath]/roary_all_results [file input path] jar_total_annotated/*.gff
