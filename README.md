@@ -27,7 +27,7 @@ As described in the publication, a [Microreact Link](https://microreact.org/proj
 
 ## Bioinformatics Drawing:
 Please see the incredibly artistic flowchart below! This flowchart has a step-by-step breakdown of the bioinformatics pipeline, including the software used, inputs, outputs, and specific files for this publication.
-![An incredible artistic cartoon drawing of the methods description found in Rodrigues et al, 2023](rodrigues_flowchart.png)
+![An incredible artistic cartoon drawing of the methods description found in Rodrigues et al, 2023](bioinformatics_drawing_rodrigues.png)
 
 
 ## Software Repisotires, Resources, and Tools used in this project:
