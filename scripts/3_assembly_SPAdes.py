@@ -20,6 +20,6 @@ for i in Genomes_pair: #Here we are stripping tabs and spaces from file names
 	print (i)
 	pairGenome = i.split("\t")  
 	RefGenome = str(pairGenome[0])  #Here we place all of the integers within our file that we read and stripped into an array. In this case each TW# Will be in an array that is called RefGenome
-	os.system("spades.py --careful -k 21,33,55,77,99,127 --pe1-1 /home/su-/anaconda3/envs/GeneEpi1/Genomes/" + RefGenome + "/" + RefGenome + "s1_pe.fastq --pe1-2 /home/su-/anaconda3/envs/GeneEpi1/Genomes/" + RefGenome + "/" + RefGenome + "s2_pe.fastq  -o /home/su-/anaconda3/envs/GeneEpi1/Genomes/Contigs/" + RefGenome)
+	os.system("spades.py --careful -k 21,33,55,77,99,127 --pe1-1 [file path]" + RefGenome + "/" + RefGenome + "s1_pe.fastq --pe1-2 [file path]" + RefGenome + "/" + RefGenome + "s2_pe.fastq  -o  [output directory]" + RefGenome)
 	print(RefGenome + "_DONE")
 #Adapted from Dr. Heather Blankenship, Ph.D., who wrote the original draft of this script
