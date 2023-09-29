@@ -26,15 +26,17 @@ As described in the publication, a [Microreact Link](https://microreact.org/proj
 ## Bioinformatics Drawing:
 Please see the incredibly artistic flowchart below! This flowchart has a step-by-step breakdown of the bioinformatics pipeline, including the software used, inputs, outputs, and specific files for this publication.
 
-## Software Repisotires and Tools used in this project:
+## Software Repisotires, Resources, and Tools used in this project:
 - [ABRICATE](https://github.com/tseemann/abricate)
 - [AMRFinderPlus](https://github.com/ncbi/amr)
+- [Center for Genomic Epidemiology](https://www.genomicepidemiology.org/)
 - [FastANI](https://github.com/ParBLiSS/FastANI)
 - [FastQC](https://github.com/s-andrews/FastQC)
 - [ITOL](https://itol.embl.de/)
-- [MLST](https://github.com/tseemann/mlst)
 - [MicroReact](https://microreact.org/)
+- [MLST](https://github.com/tseemann/mlst)
 - [MultiQC](https://github.com/ewels/MultiQC)
+- [PubMLST](https://pubmlst.org/)
 - [Prokka](https://github.com/tseemann/prokka)
 - [QUAST](https://github.com/ablab/quast)
 - [Roary](https://github.com/sanger-pathogens/Roary)
