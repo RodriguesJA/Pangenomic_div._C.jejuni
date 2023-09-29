@@ -16,6 +16,6 @@ module load Anaconda/3
 
 ########## Code to Run ###########
 
-cd /mnt/home/rodri651/
+cd [file path]
 conda activate JAR_WGS
 python 3_assembly_SPAdes.py
