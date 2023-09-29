@@ -1,0 +1,20 @@
+#!/bin/bash --login
+ 
+########## Define Resources Needed with SBATCH Lines ##########
+#SBATCH --time=72:00:00		
+#SBATCH --ntasks=1		    
+#SBATCH --cpus-per-task=12	
+#SBATCH --mem=100G     		
+#SBATCH --job-name=Roary_All
+#SBATCH --account=Manning	
+
+########## Modules to Load ##########
+
+module load Anaconda/3
+
+########## Code to Run ###########
+
+cd /mnt/home/rodri651/
+conda activate roary
+cd /mnt/gs18/scratch/groups/manninglab/
+roary -e -p 12 -f /mnt/gs18/scratch/groups/manninglab/roary_all_results /mnt/gs18/scratch/groups/manninglab/jar_total_annotated/*.gff
