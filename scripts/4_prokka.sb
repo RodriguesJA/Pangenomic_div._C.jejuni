@@ -17,5 +17,5 @@ module load prokka/1.14.6
 ########## Code to Run ###########
 
 conda activate JAR_WGS
-cd /mnt/home/rodri651
+cd [directory]
 python prokka_JAR_2021.py
