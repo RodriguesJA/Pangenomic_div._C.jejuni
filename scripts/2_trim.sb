@@ -16,7 +16,7 @@ module load Anaconda/3
 
 ########## Code to Run ###########
 
-cd /mnt/home/rodri651/
+cd [directory]
 conda activate JAR_WGS
-cd /mnt/gs18/scratch/groups/manninglab/
+cd [directory]
 python trimmomatic_v7_JAR.py
