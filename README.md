@@ -5,15 +5,15 @@
 <a id="Software Repositories used in this project:"><a/>
 <a id="Funding Sources:"><a/>
 
-# Pangenomic analyses of antibiotic-resistant Campylobacter jejuni reveal unique lineage distributions and epidemiological associations
-***Campylobacter jejuni* Bioinformatics Analysis - MDHHS and Manning Lab Collaboration**
+# Pangenomic analyses of antibiotic-resistant *Campylobacter jejuni* reveal unique lineage distributions and epidemiological associations
+***Campylobacter jejuni* Bioinformatics Analysis - Michigan Department of Health and Human Services (MDHHS) and Manning Lab Collaboration**
 
 ## Description:
 This repository contains the scripts utilized for bioinformatics and statistical analysis associated with [Rodrigues et al., 2023 publication in Microbial Genomics](https://doi.org/10.1099/mgen.0.001073).
-The work is a collaboration between the Michigan Department of Health and Human Services (MDHHS) and the [Manning Lab](https://manninglab.natsci.msu.edu/) at Michigan State University.
+The work is a collaboration between the MDHHS and the [Manning Lab](https://manninglab.natsci.msu.edu/) at Michigan State University.
 
 ## Data Availability: 
-Sequences are available at BioProjects PRJNA305291, PRJNA368990, and PRJNA951423, and new MLSTs identified in this study have been deposited to [PubMLST](https://pubmlst.org/) with designations ST-12343, and ST-12344.
+Sequences are available at BioProjects PRJNA305291, PRJNA368990, and PRJNA951423, and new MLSTs identified in this study have been deposited to [PubMLST](https://pubmlst.org/) with the designations of ST-12343, and ST-12344.
 As described in the publication, a [Microreact Link](https://microreact.org/project/dCGmMiVxreTFjNaqKC68gX-rodrigues-ja-et-al-microbial-genomics-2023) is available to view the phylogeographic analysis.
 
 ## Key Features:
@@ -27,6 +27,8 @@ As described in the publication, a [Microreact Link](https://microreact.org/proj
 
 ## Bioinformatics Drawing:
 Please see the incredibly artistic flowchart below! This flowchart has a step-by-step breakdown of the bioinformatics pipeline, including the software used, inputs, outputs, and specific files for this publication.
+![An incredible artistic cartoon drawing of the methods description found in Rodrigues et al, 2023]()
+
 
 ## Software Repisotires, Resources, and Tools used in this project:
 - [ABRICATE](https://github.com/tseemann/abricate)
@@ -43,6 +45,7 @@ Please see the incredibly artistic flowchart below! This flowchart has a step-by
 - [QUAST](https://github.com/ablab/quast)
 - [Roary](https://github.com/sanger-pathogens/Roary)
 - [SPAdes](https://github.com/ablab/spades)
+- [SpilteTree](https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/algorithms-in-bioinformatics/software/splitstree/)
 - [StarAMR](https://github.com/phac-nml/staramr)
 - [Trimmomatic](http://www.usadellab.org/cms/index.php?page=trimmomatic)
 
