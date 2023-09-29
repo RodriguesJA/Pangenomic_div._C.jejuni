@@ -11,7 +11,7 @@ from Bio.Blast import NCBIXML
 from decimal import *
 
 
-Genomes_file = open( "[file path] Cattle_Genomes/Test.txt" ) #Text file with all the genomes to be used in this pipeline. File is used instead of a directory in order to easily edit which genomes are utilized
+Genomes_file = open( "[file path] Cattle_Genomes/Test.txt" ) #Text file with all the genomes to be used in this pipeline. File is used instead of a directory in order to edit which genomes are utilized easily
 Genomes_pair = Genomes_file.readlines() #Here you are reading all of the file names within a specific folder readlines enables this fx 
 
 for i in Genomes_pair: #Here we are stripping tabs and spaces from file names 
