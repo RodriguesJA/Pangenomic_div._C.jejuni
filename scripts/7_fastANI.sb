@@ -14,8 +14,8 @@ mkdir /mnt/gs18/scratch/groups/manninglab/MiGA_All
 cd  /mnt/gs18/scratch/groups/manninglab/MiGA_All
 
 singularity shell ~/MiGA << EOF
-miga new -P /mnt/gs18/scratch/groups/manninglab/MiGA_All -t clade
-miga add -P /mnt/gs18/scratch/groups/manninglab/MiGA_All -t genome -i assembly /mnt/gs18/scratch/groups/manninglab/all_campy_genomes/*.fasta -m run_mytaxa_scan=false
-miga daemon start -t -P /mnt/gs18/scratch/groups/manninglab/MiGA_All
+miga new -P /[directory] -t clade
+miga add -P /[directory] -t genome -i assembly [directory]*.fasta -m run_mytaxa_scan=false
+miga daemon start -t -P [output directory]
 exit
 EOF
