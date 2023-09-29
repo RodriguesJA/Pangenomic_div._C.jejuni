@@ -12,17 +12,17 @@ from Bio.Blast import NCBIXML
 from decimal import *
 
 
-Campy_Genomes_file = open( "test.txt" ) #Text file with all the genomes to be used in this pipeline. File is used instead of a directory in order to edit which genomes are utilized easily
-Campy_Genomes_pair = Campy_Genomes_file.readlines() #Here you are reading all of the file names within a specific folder readlines enable this fx 
+Genomes_file = open( "test.txt" ) #Text file with all the genomes to be used in this pipeline. File is used instead of a directory in order to edit which genomes are utilized easily
+Genomes_pair = Genomes_file.readlines() #Here you are reading all of the file names within a specific folder readlines enable this fx 
 os.system(" mkdir /mnt/f/Prokka_Results ") 
 
 
-for i in Campy_Genomes_pair: #Here we are stripping tabs and spaces from file names 
+for i in Genomes_pair: #Here we are stripping tabs and spaces from file names 
 	i = i.rstrip("\n")
 	i = i.rstrip("\r") 
 	print (i)
 	pairGenome = i.split("\t")  
 	RefGenome = str(pairGenome[0])  #Here we place all of the integers within our file that we read and stripped into an array. In this case, each TW# Will be in an array that is called RefGenome
-	os.system("prokka  --outdir /mnt/f/Prokka_Results/" + RefGenome + " --prefix "  +  RefGenome   + "   /mnt/f/Genomes/" + RefGenome + ".fasta --compliant") #Here we are using Prokka to annotate genomes see https://github.com/tseemann/prokka
+	os.system("prokka  --outdir [file path] " + RefGenome + " --prefix "  +  RefGenome   + "   [file path]" + RefGenome + ".fasta --compliant") #Here we are using Prokka to annotate genomes see https://github.com/tseemann/prokka
 	print (RefGenome + "_DONE")    #The above loop using the shell command to inact prokka while out putting the the files in the directory .../Prokka as well as appending the RefGenome loop. Therefore, each TW# will run through this loop, and the last line prints which TW# is being utilized.
 #Adapted from Dr. Heather Blankenship, Ph.D., who wrote the first version of this script.
