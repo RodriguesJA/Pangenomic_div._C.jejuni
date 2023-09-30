@@ -46,6 +46,7 @@ Please see the incredibly artistic flowchart below! This flowchart has a step-by
 - [Roary](https://github.com/sanger-pathogens/Roary)
 - [SPAdes](https://github.com/ablab/spades)
 - [SplitsTree](https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/algorithms-in-bioinformatics/software/splitstree/)
+- [SRAtools](https://github.com/ncbi/sra-tools)
 - [StarAMR](https://github.com/phac-nml/staramr)
 - [Trimmomatic](http://www.usadellab.org/cms/index.php?page=trimmomatic)
 
