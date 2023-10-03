@@ -13,7 +13,7 @@ This repository contains the scripts utilized for bioinformatics and statistical
 The work is a collaboration between the MDHHS and the [Manning Lab](https://manninglab.natsci.msu.edu/) at Michigan State University.
 
 ## Data Availability: 
-Sequences are available at BioProjects PRJNA305291, PRJNA368990, and PRJNA951423, and new MLSTs identified in this study have been deposited to [PubMLST](https://pubmlst.org/) with the designations of ST-12343, and ST-12344.
+Sequences are available at BioProjects PRJNA305291, PRJNA368990, and PRJNA951423. New MLSTs identified in this study have been deposited to [PubMLST](https://pubmlst.org/) with the designations of ST-12343, and ST-12344.
 As described in the publication, a [Microreact Link](https://microreact.org/project/dCGmMiVxreTFjNaqKC68gX-rodrigues-ja-et-al-microbial-genomics-2023) is available to view the phylogeographic analysis.
 
 ## Key Features:
