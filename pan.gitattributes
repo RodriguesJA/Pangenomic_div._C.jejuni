@@ -1,0 +1,3 @@
+*.sas linguist-detectable=false
+*.sb linguist-detectable=true
+*.py linguist-detectable=true
